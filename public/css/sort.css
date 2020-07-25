@@ -1,0 +1,16 @@
+.board__filter-list {
+  margin-bottom: 24px;
+}
+
+.board__filter {
+  display: inline-block;
+  margin-right: 24px;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+}
+
+.board__filter:hover,
+.board__filter:focus {
+  opacity: 0.7;
+}

@@ -1,0 +1,27 @@
+.main__filter {
+  margin-bottom: 29px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+.filter__label {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+}
+.filter__label:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s ease-out;
+}
+.filter__input:not(:disabled):checked + .filter__label {
+  text-shadow: 1px 0 0 #000000;
+}
+.filter__input:not(:disabled):checked + .filter__label:hover {
+  text-shadow: 1px 0 0 #000000;
+  opacity: 1;
+}
+.filter__input:disabled + .filter__label {
+  color: #e7e3e3;
+}

@@ -1,0 +1,67 @@
+@import url('./container.css');
+.main {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.main__search {
+  margin-bottom: 14px;
+}
+
+.search__input {
+  width: 100%;
+  height: 40px;
+  max-height: 40px;
+  box-sizing: border-box;
+  border: 3px solid #000000;
+  font-size: 16px;
+  font-weight: bold;
+  color: inherit;
+  font-family: inherit;
+  outline: none;
+  transition: max-height 0.3s ease-out;
+}
+.search__input::placeholder {
+  font-weight: normal;
+  color: #e7e3e3;
+  font-size: 16px;
+}
+
+.result {
+  position: relative;
+}
+.result__back {
+  position: absolute;
+  left: 20px;
+  top: 2px;
+  border: 0;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 0;
+  outline: 0;
+}
+.result__back:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.result__title {
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 30px;
+}
+.result__count {
+  padding-left: 3px;
+}
+.result__cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.result__empty {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+

@@ -1,0 +1,39 @@
+.statistic {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.statistic__line {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #000000;
+}
+.statistic__period {
+  width: 230px;
+  margin-right: 80px;
+}
+.statistic__period-title {
+  margin-top: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.statistic-input-wrap {
+  display: flex;
+  width: 100%;
+}
+.statistic__period-input {
+  padding: 8px 0 4px 20px;
+  margin: 0;
+  border: 1px solid #000000;
+  font-size: 14px;
+  width: 100%;
+  color: #000000;
+}
+.statistic__period-result {
+  font-size: 14px;
+  font-weight: 500;
+}
+.statistic__circle {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
